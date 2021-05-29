@@ -1,0 +1,331 @@
+*{  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+}
+/*menu*/
+#menu{
+    width: 100%;
+    max-width: 100%;
+    background-color:  #1071df;
+    display: flex;
+    justify-content: center;
+}
+#menu ul li{
+    display: inline-block;
+    list-style: none;
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family: Verdana;
+    font-size: 15px;
+    padding: 5px 20px;
+    border-radius: 3px;
+    margin: 0 5px;
+    border-left: 1px solid black;
+}
+#menu li:hover{
+    opacity: 30%;   
+}
+#logo{
+    height: 9%;
+    width: 9%;
+    position: absolute;
+    top: 2px;
+    left: 10%;
+    max-width: 100%;
+}
+/*menu*/
+
+.middle{
+    margin-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 50%;
+    max-width: 100%;
+}
+
+.contenedorimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana; 
+}
+.imgall{
+    width: 220px;
+    height: 190px;
+    margin: 20px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.imgall:hover{
+    opacity: 30%;
+    transition: 2s;
+}   
+.imgtext{
+    text-align: center;
+    margin-top: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px ;
+    font-weight: bolder;
+    color: #1071df;
+}
+.contenedor{
+    position: relative;
+}
+.sub{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Verdana;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.title{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    color: white;
+    font-family: Verdana;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.special{
+    color: #1071df;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 2%;
+
+}
+/*footer*/
+#footer{
+    color: white;
+    background-color: #1071df;
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    padding: 50px;
+    margin-top: 22%;
+    font-size: calc(0.5em + 0.3vw);
+    text-align: center;
+}
+/*footer*/
+
+
+
+
+
+
+/*formulario copia*/
+
+/*formulario copia*/
+
+#mapa{
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+
+}
+
+/*RESPONSIVE*/
+    /* Por debajo de 700px */
+        @media screen and (max-width: 700px){
+
+            .sub{
+    
+                font-size:12px;
+                position: absolute;
+    
+            }
+            .title{
+    
+                font-size: 18px;
+    
+            }
+
+            .imgall{
+            width: 110px;
+            height: 95px;
+            margin: 20px;
+            max-width: 100%;
+            max-height: 100%;
+            }
+
+            #menu{
+                width: 100%;
+                max-width: 100%;
+                background-color:  #1071df;
+                display: flex;
+                justify-content: center;
+            }
+            #menu ul li{
+                display: inline-block;
+                list-style: none;
+            }
+            #menu a{
+                text-decoration: none;
+                color: white;
+                display: block;
+                font-family: Verdana;
+                font-size: 13px;
+                padding: 5px 15px;
+                border-radius: 3px;
+                margin: 0 2px;
+                border-left: 1px solid black;
+            }
+            #menu li:hover{
+                opacity: 30%;   
+            }  
+
+            #logo{
+                height: 5%;
+                width: 5%;
+                position: absolute;
+                top: 10px;
+                left: 5%;
+                max-width: 100%;
+            }
+            .special{
+                color: #1071df;
+                font-size: 14px;
+                font-weight: bolder;
+            
+            }
+            .imgtext{
+                text-align: center;
+                margin-top: 0%;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 12px ;
+                font-weight: bolder;
+                color: #1071df;
+            }
+            #mapa{
+                margin-top: 5%;
+                width: 150px;
+                height: 300px;
+            }
+
+            
+        }
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        /* Por debajo de 400px */
+        @media screen and (max-width: 400px){
+    
+            .contenido{
+    
+                font-size:10px;
+    
+            }
+            .titulo{
+    
+                font-size:16px;
+    
+            }
+
+            #logo{
+                height: 5px;
+                width: 6px;
+                position: absolute;
+                top: 5px;
+                left: 5%;
+                max-width: 100%;
+            }
+    
+        }
+    
+        /*cookies*/
+        #div-cookies {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0px -5px 15px #1071df;
+        padding: 20px;
+        text-align: center;
+        z-index: 99;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+.stext{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.prova{   
+    width: 450px;
+    height: 240px;
+}
+#audio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
+}
